@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+header{
+    background-color: #050505;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #070707;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button{
+    color: white;
+    background-color: green;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+#cancel{
+    background-color: red;
+    height: 30px;
+    cursor: pointer;
+}
+
+form{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+
+form h2{
+    margin-right: 16px;
+}
+
+form input{
+    border-bottom: 2px solid;
+    margin-right: 8px;
+    height: 30px;
+}
+
+form button{
+    color: white;
+    background-color: green;
+    height: 30px;
+    cursor: pointer;
+}
+
+ul{
+    padding: 16px;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+li{
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+}
+
+.removed{
+    text-decoration: line-through;
+}
